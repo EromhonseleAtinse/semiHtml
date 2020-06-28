@@ -1,0 +1,223 @@
+@font-face {
+  font-family: IBM Plex Sans;
+  src: url("../font/IBMPlexSans-Light.ttf");
+}
+
+@font-face {
+  font-family: IBM Plex Sans;
+  font-weight: 600;
+  src: url("../font/IBMPlexSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: IBM Plex Sans;
+  font-weight: bold;
+  src: url("../font/IBMPlexSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: IBM Plex Sans;
+  font-weight: 500;
+  src: url("../font/IBMPlexSans-Medium.ttf");
+}
+
+body {
+  font-family: IBM Plex Sans, sans-serif;
+  overflow-x: hidden;
+}
+
+nav.navbar-light.bg-light {
+  background-color: #fff !important;
+  border-bottom: 1px solid rgb(240, 237, 237);
+}
+.nav-link {
+  color: #455a64 !important;
+  font-weight: bold;
+}
+.nav-item {
+  margin: 0 20px !important;
+}
+.btn {
+  margin: 0 10px !important;
+  padding: 10px 10px !important;
+  font-size: 15px !important;
+}
+
+.btn-danger {
+  background-color: #ff2e2e !important;
+  border: 1px solid #ff2e2e;
+  font-weight: bold;
+}
+
+.btn-outline-danger {
+  border: 2px solid #ff2e2e;
+  font-weight: bold;
+}
+.btn-outline-danger:hover {
+  background-color: #ff2e2e !important;
+  border: 1px solid #ff2e2e;
+}
+.hero-section {
+  background-color: #fff !important;
+  margin-top: 10%;
+  box-shadow: 0px 4px 30px rgba(216, 211, 211, 0.4);
+  padding: 30px 10px;
+}
+.hero-btn-outline-danger {
+  border: 2px solid #ff2e2e;
+  color: #ff2e2e;
+  padding: 10px 20px !important;
+  margin-left: 0 !important;
+  font-weight: bold;
+}
+.hero-btn-danger {
+  background-color: #ff2e2e !important;
+  border: 1px solid #ff2e2e;
+  padding: 10px 20px !important;
+  color: #fff;
+  font-weight: bold;
+}
+.tagline-mainline {
+  padding-left: 40px;
+}
+.tagline {
+  color: #ff2e2e;
+  font-size: 50px;
+}
+.lead {
+  color: #455a64;
+  font-size: medium;
+  line-height: 30px;
+}
+
+.future {
+  position: relative;
+  background: #fff2c7;
+  top: 60px;
+  background-image: url("http://semicolonhome.herokuapp.com/imgs/pngs/PNG/site%20pattern@4x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.future-el {
+  margin: 50px 20px;
+}
+
+.future-el h2 {
+  color: #960c0c;
+  font-size: 2.2rem;
+  font-weight: bold !important;
+  margin-bottom: 0 !important;
+}
+.future-el p {
+  line-height: 24px;
+  color: #455a64;
+  padding: 26px 0;
+  line-height: 30px;
+}
+.future-second-el {
+  margin-bottom: 50px;
+}
+.future-second-el h2 {
+  color: #960c0c;
+  font-size: 2.2rem;
+  font-weight: bold !important;
+  margin-top: 60px;
+  margin-bottom: 0 !important;
+}
+.future-second-el p {
+  line-height: 24px;
+  color: #455a64;
+  padding: 26px 0;
+  line-height: 30px;
+}
+.fancy-button {
+  padding: 15px 30px;
+  background: #fff6d7;
+  border: 0.5px solid #960c0c;
+  box-sizing: border-box;
+  border-radius: 3px;
+
+  color: #960c0c;
+  font-weight: bold;
+  font-size: small;
+}
+
+.fancy-button:hover {
+  background: #960c0c;
+  color: #fff;
+  text-decoration: none;
+}
+
+.fancy-button a:hover {
+  color: #ff2e2e;
+  font-weight: bold;
+  text-decoration: none;
+}
+.learn-more {
+  margin-top: 180px;
+}
+.custom-card {
+  padding-left: 46px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #fff9e5;
+  box-shadow: 4px 4px 20px rgba(218, 197, 197, 0.25);
+  border-radius: 6px;
+}
+.custom-card a {
+  padding: 12px 50px;
+  text-transform: uppercase;
+}
+.custom-card h2 {
+  color: #960c0c;
+  font-size: 30px;
+  padding: 20px 0;
+}
+.custom-card p {
+  color: #455a64;
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+.partner-box {
+  margin-top: 180px;
+  padding-left: 0 !important;
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 25px rgba(170, 170, 170, 0.25);
+}
+.partner-label {
+  margin-top: 20px;
+  width: 317px;
+  height: 50px;
+  background: #fff2c7;
+  border-radius: 4px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.partner-label h6 {
+  color: #960c0c;
+}
+.show-partners {
+  position: relative;
+  left: 78%;
+  padding: 15px 30px;
+  background: #fff;
+  color: black;
+  border-radius: 3px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: small;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 991px) {
+  .hero-image {
+    display: none;
+  }
+  .fancy-button {
+    margin-right: 2px;
+  }
+  .show-partners {
+    left: 30%;
+  }
+}
